@@ -61,7 +61,7 @@ public class The5zigMod extends JavaPlugin {
 	 */
 	private boolean setupHooks() {
 		String packageName = getServer().getClass().getPackage().getName();
-		// org.bukkit.craftbukkit.version
+		 org.bukkit.craftbukkit.version
 		String version = packageName.substring(packageName.lastIndexOf('.') + 1);
 		getLogger().info("Trying to setup Hooks for CraftBukkit " + version);
 		try {
